@@ -1,0 +1,6 @@
+[submodule "utils\\toolbox"]
+	path = utils\\toolbox
+	url = https://github.com/pdollar/toolbox
+[submodule "utils\\edges"]
+	path = utils\\edges
+	url = https://github.com/pdollar/edges
