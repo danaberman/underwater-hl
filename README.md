@@ -25,6 +25,23 @@ If you use this code, please cite the appropriate paper.
 ### System Requirements:
 The code requires MATLAB, and was tested on windows.
 
+### Download code and Pre-requisites
+
+#### Option A: with git
+Run the following commands to initialize your local repository, and to fetch all of the dependencies:
+
+    git clone https://github.com/danaberman/underwater-hl.git
+    cd underwater-hl
+    git submodule init
+    git submodule update
+
+
+#### Option B: without git
+
+1. Download the code as a zip file.
+2. Download the toolbox from `https://github.com/pdollar/toolbox` into `utils/toolbox/`.
+3. Download the toolbox from `https://github.com/pdollar/edges` into `utils/edges/`.
+
 ### Demo
 1. Change MATLAB's directory to the folder the code was extracted to.
 2. Run the file main_underwater_restoration.m in order to see the algorithm's perfomance on the attached images.
